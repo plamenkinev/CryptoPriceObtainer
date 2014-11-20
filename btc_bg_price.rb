@@ -61,7 +61,7 @@ end
 ##### Writing obtained data to a DB
 
 begin
-    con = Mysql.new 'plamenkinev.com', 'plame_btc_user', 'Kkr2g$27'
+    con = Mysql.new '', '', ''
     puts con.get_server_info
     rs = con.query 'SELECT VERSION()'
     puts rs.fetch_row    
